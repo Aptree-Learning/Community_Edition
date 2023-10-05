@@ -38,7 +38,7 @@ This guide will walk you through the installation process for setting up aptree,
 First, clone the aptree repository from GitHub (or wherever your project is hosted) to your local machine.
 
 ```bash
-gh repo clone Aptree-Learning/open_source
+gh repo clone https://github.com/Aptree-Learning/Community_Edition.git
 
 ```
 
