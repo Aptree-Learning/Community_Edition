@@ -1,0 +1,10 @@
+{
+    "indentSize": 4,
+    "wrapAttributes": "auto",
+    "wrapLineLength": 120,
+    "endWithNewLine": true,
+    "noMultipleEmptyLines": false,
+    "useTabs": false,
+    "sortTailwindcssClasses": true,
+    "sortHtmlAttributes": "none"
+}

@@ -1,0 +1,106 @@
+
+
+{
+  \"questions\": [
+    {
+      \"question\": \"What type of application framework is Laravel?\",
+      \"choices\": [
+        \"Desktop application framework\",
+        \"Mobile application framework\",
+        \"Web application framework\",
+        \"All of the above\"
+      ],
+      \"answer\": \"Web application framework\"
+    },
+    {
+      \"question\": \"What is the syntax of Laravel known for?\",
+      \"choices\": [
+        \"Messy and confusing syntax\",
+        \"Expressive and elegant syntax\",
+        \"Repetitive and boring syntax\",
+        \"None of the above\"
+      ],
+      \"answer\": \"Expressive and elegant syntax\"
+    },
+    {
+      \"question\": \"What has Laravel already done for developers?\",
+      \"choices\": [
+        \"Created a difficult foundation\",
+        \"Created a foundation with small issues\",
+        \"Created a perfect foundation\",
+        \"None of the above\"
+      ],
+      \"answer\": \"Created a foundation with small issues\"
+    },
+    {
+      \"question\": \"What does Laravel allow you to do?\",
+      \"choices\": [
+        \"Create without worrying about the small things\",
+        \"Create only small applications\",
+        \"Create without taking any risks\",
+        \"None of the above\"
+      ],
+      \"answer\": \"Create without worrying about the small things\"
+    },
+    {
+      \"question\": \"What is one benefit of using Laravel?\",
+      \"choices\": [
+        \"It is poorly documented\",
+        \"It is difficult to use\",
+        \"It allows for quick application building\",
+        \"None of the above\"
+      ],
+      \"answer\": \"It allows for quick application building\"
+    },
+    {
+      \"question\": \"What type of application can be built with Laravel?\",
+      \"choices\": [
+        \"Only simple applications\",
+        \"Any type of application\",
+        \"Only web applications\",
+        \"None of the above\"
+      ],
+      \"answer\": \"Any type of application\"
+    },
+    {
+      \"question\": \"What is the primary feature that sets Laravel apart from other frameworks?\",
+      \"choices\": [
+        \"It's poorly supported\",
+        \"It's very difficult to use\",
+        \"It's expressive and elegant syntax\",
+        \"None of the above\"
+      ],
+      \"answer\": \"It's expressive and elegant syntax\"
+    },
+    {
+      \"question\": \"What is one way that Laravel can make development easier?\",
+      \"choices\": [
+        \"By creating more problems\",
+        \"By ignoring common issues\",
+        \"By taking care of small details\",
+        \"None of the above\"
+      ],
+      \"answer\": \"By taking care of small details\"
+    },
+    {
+      \"question\": \"What has Laravel done for developers in terms of time?\",
+      \"choices\": [
+        \"Wasted a lot of time\",
+        \"Saved time\",
+        \"Made no difference in time\",
+        \"None of the above\"
+      ],
+      \"answer\": \"Saved time\"
+    },
+    {
+      \"question\": \"What is the biggest benefit of using Laravel?\",
+      \"choices\": [
+        \"It is very difficult to learn\",
+        \"It is poorly supported\",
+        \"It has a large community\",
+        \"None of the above\"
+      ],
+      \"answer\": \"It has a large community\"
+    }
+  ]
+}

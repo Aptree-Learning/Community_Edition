@@ -1,0 +1,208 @@
+@import '../../vendor/filament/forms/dist/module.esm.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.text-primary{
+    color: var(--text-primary);
+}
+
+.bg-primary{
+    background-color: var(--bg-primary);
+}
+.bg-primary-10{
+    background-color: var(--bg-primary-10);
+}
+
+.border-primary{
+    border-color: var(--bg-primary);
+}
+
+.btn-primary{
+    @apply  px-3 py-2 text-sm text-white rounded-md lg:text-base lg:py-3 lg:px-6 bg-primary;
+}
+
+.btn-primary:hover{
+    filter: brightness(90%);
+}
+
+.btn-secondary:hover{
+    filter: brightness(90%);
+}
+
+.text-secondary{
+    color: var(--text-secondary);
+}
+
+.bg-secondary{
+    background-color: var(--bg-secondary);
+}
+.bg-secondary-10{
+    background-color: var(--bg-secondary-10);
+}
+.border-secondary{
+    border-color: var(--bg-secondary);
+}
+
+.btn-secondary{
+    @apply  px-3 py-2 text-sm text-white rounded-md lg:text-base lg:py-3 lg:px-6 bg-secondary;
+}
+
+.btn-sm{
+    @apply px-4 py-1.5;
+}
+
+.btn-light{
+    @apply px-4 text-primary border border-gray-300 py-1.5 rounded-md;
+}
+
+.max-w-sidebar{
+    max-width: 54px;
+}
+
+.filament-forms-component-container input{
+   @apply  placeholder:text-gray-400 placeholder:font-light;
+   border-radius: 4px;
+}
+
+.filament-forms-component-container * :disabled{
+    @apply bg-gray-200;
+}
+
+.filament-forms-component-container textarea{
+    @apply  placeholder:text-gray-400 placeholder:font-light;
+    border-radius: 4px;
+ }
+
+.filament-forms-component-container .choices__inner{
+    @apply  placeholder:text-gray-400 placeholder:font-light;
+    border-radius: 4px;
+ }
+
+ .filament-forms-component-container select{
+    @apply  placeholder:text-gray-400 placeholder:font-light;
+    border-radius: 4px;
+ }
+
+.filament-forms-field-wrapper button{
+    border-radius: 4px;
+}
+
+.filament-forms-toggle-component{
+    @apply rounded-full !important;
+}
+
+.filament-forms-component-container .choices__list--multiple:not(:empty){
+    @apply inline-flex;
+}
+
+/*
+Default
+.choices__inner {
+    position: relative;
+    padding-right: 1.5rem; 
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E") ;
+  }
+*/
+  .choices__inner {
+    position: relative;
+    padding-right: 1.5rem; /* add padding to make space for the pseudo-element */
+    background: white;
+  }
+  
+.choices__inner::after {
+    content: '▾';
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    bottom: 7px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0 0 0 / 5%);
+    color: #8F95B2;
+    border-radius: 0.05rem;
+    text-align: center;
+    vertical-align: top;
+    display: table-cell;
+  }
+
+.modal .filament-forms-field-wrapper-label span{
+    @apply text-base text-primary;
+}
+
+.filepond--drop-label{
+    @apply bg-gray-200 rounded-sm;
+}
+
+trix-editor#content{
+    height: 240px;
+}
+
+/* div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background: unset !important;
+    background-color: unset !important;
+    color: unset !important;
+} */
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel {
+    color:white !important;
+}
+
+.swal2-cancel.border-gray-300{
+    border: 1px solid rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.swal2-styled:hover{
+    filter: brightness(90%);
+}
+
+.relative.w-12.h-12.grow-1.shrink-0{
+    width: 24px;
+    height: 24px;
+}
+
+.relative.w-full.flex.flex-col.items-center.justify-center.py-2{
+    height: 32px !important;
+}
+
+.choices__item small{
+    display: none;
+}
+
+input:focus, select:focus, button:focus, textarea:focus, trix-editor:focus{
+    outline: none;
+    border-color: var(--bg-primary) !important;
+    --tw-ring-color: var(--bg-primary) !important;
+}
+
+button:focus {
+    --tw-ring-color: var(--bg-primary) !important;
+}
+
+input[type="radio"] {
+    color: var(--bg-primary) !important;
+    --tw-ring-color: var(--bg-primary) !important;
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted, .choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+    background-color: var(--bg-primary) !important;
+}
+
+.is-focused .choices__inner, .is-open .choices__inner {
+    --tw-ring-color: var(--bg-primary) !important;
+    border-color: var(--bg-primary) !important;
+}
+
+select option:active, select option:hover, select option:focus {
+    background: var(--bg-primary) !important;
+}
+
+.bg-primary-600 {
+    background: var(--bg-primary) !important;
+}
