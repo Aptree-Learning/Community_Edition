@@ -1,0 +1,110 @@
+spec:
+  name: sample-laravel
+  services:
+  - environment_slug: php
+    git:
+      branch: main
+      repo_clone_url: https://github.com/digitalocean/sample-laravel.git
+    envs:
+    - key: APP_NAME
+      value: "Aptree"
+    - key: APP_ENV
+      value: "production"
+    - key: APP_KEY
+      value: "base64:UdAH2B63rlotjrkSSsj3Hppy4gbfr+OeHvtSdF9r9q8="
+    - key: APP_DEBUG
+      value: "false"
+    - key: STRIPE_KEY
+      value: ""
+    - key: STRIPE_SECRET
+      value: ""
+    - key: DB_CONNECTION
+      value: "mysql"
+    - key: DB_HOST
+      value: "127.0.0.1"
+    - key: DB_PORT
+      value: "3306"
+    - key: DB_DATABASE
+      value: "laravel"
+    - key: DB_PASSWORD
+      value: ""
+      type: SECRET
+    - key: DB_USERNAME
+      value: "root"
+    - key: MAIL_MAILER
+      value: "mailersend"
+    - key: MAILERSEND_API_KEY
+      value: ""
+    - key: MAIL_HOST
+      value: "smtp.mailersend.net"
+    - key: MAIL_PORT
+      value: "587"
+    - key: MAIL_USERNAME
+      value: ""
+    - key: MAIL_PASSWORD
+      value: ""
+      type: SECRET
+    - key: MAIL_ENCRYPTION
+      value: "tls"
+    - key: MAIL_FROM_ADDRESS
+      value: ""
+    - key: MAIL_FROM_NAME
+      value: "${APP_NAME}"
+    - key: OPENAI_API_KEY
+      value: ""
+    - key: CHATGPT_QUESTGEN
+      value: ""
+    - key: APIVIDEO_KEY
+      value: ""
+    - key: APIVIDEO_UPLOAD_TOKEN
+      value: ""
+    - key: GOOGLE_ENABLE
+      value: "0"
+    - key: GOOGLE_CLIENT_ID
+      value: ""
+    - key: GOOGLE_CLIENT_SECRET
+      value: ""
+    - key: GOOGLE_REDIRECT_URI
+      value: ""
+    - key: FACEBOOK_ENABLE
+      value: "false"
+    - key: FACEBOOK_CLIENT_ID
+      value: ""
+    - key: FACEBOOK_CLIENT_SECRET
+      value: ""
+    - key: FACEBOOK_REDIRECT_URI
+      value: ""
+    - key: TWITTER_ENABLE
+      value: "false"
+    - key: TWITTER_CLIENT_ID
+      value: ""
+    - key: TWITTER_CLIENT_SECRET
+      value: ""
+    - key: TWITTER_REDIRECT_URI
+      value: ""
+    - key: DIGITALOCEAN_SPACES_KEY
+      value: ""
+    - key: DIGITALOCEAN_SPACES_SECRET
+      value: ""
+    - key: DIGITALOCEAN_SPACES_ENDPOINT
+      value: ""
+    - key: DIGITALOCEAN_SPACES_REGION
+      value: ""
+    - key: DIGITALOCEAN_SPACES_BUCKET
+      value: ""
+    - key: DIGITALOCEAN_SPACES_CDN_URL
+      value: ""
+    - key: APP_APIVIDEO
+      value: ""
+    - key: APIVIDEO_UPLOAD_TOKEN
+      value: ""
+    - key: OPENAI_ENABLE
+      value: "1"
+    - key: OPENAI_API_ORGANIZATION
+      value: ""
+    - key: APP_TIMEZONE
+      value: "America/New_York"
+    name: sample-laravel
+    run_command: heroku-php-apache2 public/
+    databases:
+    - name: laravel
