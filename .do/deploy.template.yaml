@@ -106,5 +106,3 @@ spec:
       value: "America/New_York"
     name: sample-laravel
     run_command: heroku-php-apache2 public/
-    databases:
-    - name: laravel
