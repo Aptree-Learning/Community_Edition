@@ -16,6 +16,9 @@ Aptree is a state-of-the-art Learning Management System (LMS) built with a focus
 -   **Easy Installation**: Get up and running with minimal setup, thanks to our streamlined installation process.
 -   **White-Labelled Experience**: Customize Aptree to reflect your institution’s branding and identity.
 
+# Installing on DigitalOcean
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Aptree-Learning/Community_Edition/tree/main)
+
 # Installing on Localhost
 
 This guide will walk you through the installation process for setting up aptree, a modern, open-source learning platform built using the TALL stack—Tailwind CSS, Alpine.js, Laravel, and Livewire.
