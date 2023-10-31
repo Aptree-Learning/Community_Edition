@@ -19,6 +19,9 @@ Aptree is a state-of-the-art Learning Management System (LMS) built with a focus
 # Installing on DigitalOcean
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Aptree-Learning/Community_Edition/tree/main)
 
+# Installing on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAptree-Learning%2FCommunity_Edition%2Ftree%2Fmain)
+
 # Installing on Localhost
 
 This guide will walk you through the installation process for setting up aptree, a modern, open-source learning platform built using the TALL stack—Tailwind CSS, Alpine.js, Laravel, and Livewire.
